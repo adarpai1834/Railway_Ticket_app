@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Support | Техническая поддержка</title>
+    <link rel="icon" href="favicon.svg">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(97759531, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/97759531" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-size: 18px;
+        }
+        .header {
+            background-color: #e21a1a;
+            color: white;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1;
+        }
+        h1, h2 {
+            color: #e21a1a;
+            margin-top: 0;
+            font-size: 2em;
+        }
+        .header h1 {
+            color: white;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .language-switcher {
+            display: flex;
+            gap: 10px;
+        }
+        .language-btn {
+            background-color: white;
+            color: #e21a1a;
+            border: 2px solid #e21a1a;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 1em;
+        }
+        .language-btn:hover, .language-btn.active {
+            background-color: #e21a1a;
+            color: white;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            font-size: 1.1em;
+        }
+        a {
+            color: #e21a1a;
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        .footer {
+            background-color: #e21a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        @media (max-width: 750px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .language-switcher {
+                margin-top: 20px;
+            }
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+            body {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header" role="banner">
+        <h1 class="lang-en">Technical Support</h1>
+        <h1 class="lang-ru">Техническая поддержка</h1>
+        <div class="language-switcher">
+            <button class="language-btn" onclick="switchLanguage('en')" aria-label="Switch to English">English</button>
+            <button class="language-btn" onclick="switchLanguage('ru')" aria-label="Переключить на русский">Русский</button>
+        </div>
+    </div>
+    <main class="container" role="main">
+        <div class="lang-en">
+            <h2>About the App</h2>
+            <p>Our iOS app for purchasing train tickets offers a convenient and fast way to book your journey. With an intuitive interface and a wide selection of routes, you can easily plan your trip and buy tickets directly from your smartphone.</p>
+            
+            <h2>Key Features</h2>
+            <ul>
+                <li>Easy search and booking of train tickets</li>
+                <li>Secure payment system</li>
+                <li>Real-time schedule updates</li>
+                <li>Electronic tickets storage</li>
+                <li>Personalized travel recommendations</li>
+            </ul>
+
+            <h2>Contact Support</h2>
+            <p>If you have any questions, issues, or suggestions regarding our app, please don't hesitate to contact our technical support team.</p>
+            
+            <div class="contact-info">
+                <p>Email: <a href="mailto:adarpai.1834@gmail.com">adarpai.1834@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="lang-ru">
+            <h2>О приложении</h2>
+            <p>Наше приложение для iOS по продаже железнодорожных билетов предлагает удобный и быстрый способ бронирования вашей поездки. С интуитивно понятным интерфейсом и широким выбором маршрутов вы можете легко спланировать свое путешествие и купить билеты прямо со своего смартфона.</p>
+            
+            <h2>Основные функции</h2>
+            <ul>
+                <li>Простой поиск и бронирование железнодорожных билетов</li>
+                <li>Безопасная система оплаты</li>
+                <li>Обновление расписания в реальном времени</li>
+                <li>Хранение электронных билетов</li>
+                <li>Персонализированные рекомендации по путешествиям</li>
+            </ul>
+
+            <h2>Связь с поддержкой</h2>
+            <p>Если у вас возникли вопросы, проблемы или предложения по работе нашего приложения, пожалуйста, не стесняйтесь обращаться в нашу службу технической поддержки.</p>
+            
+            <div class="contact-info">
+                <p>Email: <a href="mailto:adarpai.1834@gmail.com">adarpai.1834@gmail.com</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <p class="lang-en">&copy; 2024 Claude, NK & SI. All rights reserved.</p>
+        <p class="lang-ru">&copy; 2024 Claude, NK & SI. Все права защищены.</p>
+    </footer>
+
+    <script>
+        function switchLanguage(lang) {
+            document.documentElement.lang = lang;
+            document.querySelectorAll('.lang-en, .lang-ru').forEach(el => {
+                el.style.display = 'none';
+            });
+            document.querySelectorAll(`.lang-${lang}`).forEach(el => {
+                el.style.display = 'block';
+            });
+            document.querySelectorAll('.language-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.language-btn:nth-child(${lang === 'en' ? 1 : 2})`).classList.add('active');
+            document.title = lang === 'en' ? 'Technical Support' : 'Техническая поддержка';
+        }
+
+        // Set default language to English
+        switchLanguage('en');
+    </script>
+</body>
+</html>
